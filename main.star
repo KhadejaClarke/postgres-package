@@ -130,10 +130,6 @@ def run(
             min_memory=min_memory,
             max_memory=max_memory,
             node_selectors=node_selectors,
-            wait_for_healthy=True,
-            wait_timeout="2m",
-            health_check_interval="5s",
-            health_check_retries=24
         ),
     )
 
