@@ -18,7 +18,7 @@ POSTGRES_MAX_MEMORY = 1024
 
 def run(
     plan,
-    image="postgres:alpine",
+    image="postgres:15.2-alpine",
     service_name="postgres",
     user="postgres",
     password="MyPassword1!",
